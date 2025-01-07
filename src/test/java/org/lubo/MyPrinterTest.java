@@ -19,7 +19,7 @@ class MyPrinterTest {
         MyPrinter.printText();
 
         // Verify the output
-        assertEquals("Hello from Maven Repository!\n", outContent.toString());
+        assertEquals("Hello from Local Maven Repository!\n", outContent.toString());
     }
 
     @Test
